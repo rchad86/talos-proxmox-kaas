@@ -14,7 +14,7 @@ source "proxmox" "talos" {
   node                     = var.proxmox_nodename
   insecure_skip_tls_verify = true
 
-  iso_file    = "local:iso/archlinux-2023.04.01-x86_64.iso"
+  iso_file    = "local:iso/archlinux-2024.10.01-x86_64.iso"
   unmount_iso = true
 
   scsi_controller = "virtio-scsi-pci"
